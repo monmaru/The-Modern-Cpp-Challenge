@@ -1,0 +1,603 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4E0FD2BD-A739-3EFC-862D-9F8BB392E60D}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>cryptlib</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">cryptlib.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">cryptlib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">cryptlib.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">cryptlib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">cryptlib.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">cryptlib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">cryptlib.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">cryptlib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;USE_PRECOMPILED_HEADERS;_SILENCE_ALL_CXX17_DEPRECATION_WARNINGS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;USE_PRECOMPILED_HEADERS;_SILENCE_ALL_CXX17_DEPRECATION_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;USE_PRECOMPILED_HEADERS;_SILENCE_ALL_CXX17_DEPRECATION_WARNINGS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;USE_PRECOMPILED_HEADERS;_SILENCE_ALL_CXX17_DEPRECATION_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;USE_PRECOMPILED_HEADERS;_SILENCE_ALL_CXX17_DEPRECATION_WARNINGS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;USE_PRECOMPILED_HEADERS;_SILENCE_ALL_CXX17_DEPRECATION_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;USE_PRECOMPILED_HEADERS;_SILENCE_ALL_CXX17_DEPRECATION_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;USE_PRECOMPILED_HEADERS;_SILENCE_ALL_CXX17_DEPRECATION_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/dev/ttt/The-Modern-Cpp-Challenge/libs/cryptopp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/dev/ttt/The-Modern-Cpp-Challenge -BC:/dev/ttt/The-Modern-Cpp-Challenge --check-stamp-file C:/dev/ttt/The-Modern-Cpp-Challenge/libs/cryptopp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/dev/ttt/The-Modern-Cpp-Challenge/libs/cryptopp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/dev/ttt/The-Modern-Cpp-Challenge -BC:/dev/ttt/The-Modern-Cpp-Challenge --check-stamp-file C:/dev/ttt/The-Modern-Cpp-Challenge/libs/cryptopp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/dev/ttt/The-Modern-Cpp-Challenge/libs/cryptopp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/dev/ttt/The-Modern-Cpp-Challenge -BC:/dev/ttt/The-Modern-Cpp-Challenge --check-stamp-file C:/dev/ttt/The-Modern-Cpp-Challenge/libs/cryptopp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/dev/ttt/The-Modern-Cpp-Challenge/libs/cryptopp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/dev/ttt/The-Modern-Cpp-Challenge -BC:/dev/ttt/The-Modern-Cpp-Challenge --check-stamp-file C:/dev/ttt/The-Modern-Cpp-Challenge/libs/cryptopp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\3way.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\adler32.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\adv-simd.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\aes.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\algebra.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\algparam.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\arc4.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\argnames.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\aria.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\asn.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\authenc.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\base32.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\base64.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\basecode.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\bench.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\blake2.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\blowfish.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\blumshub.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\camellia.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\cast.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\cbcmac.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\ccm.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\chacha.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\channels.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\cmac.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\config.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\cpu.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\crc.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\cryptlib.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\default.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\des.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\dh.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\dh2.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\dll.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\dmac.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\drbg.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\dsa.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\eax.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\ec2n.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\eccrypto.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\ecp.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\ecpoint.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\elgamal.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\emsa2.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\eprecomp.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\esign.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\factory.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\fhmqv.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\files.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\filters.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\fips140.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\fltrimpl.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\gcm.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\gf256.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\gf2_32.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\gf2n.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\gfpcrypt.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\gost.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\gzip.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\hashfwd.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\hex.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\hkdf.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\hmac.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\hmqv.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\hrtimer.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\ida.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\idea.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\integer.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\iterhash.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\kalyna.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\keccak.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\lubyrack.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\luc.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\mars.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\md2.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\md4.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\md5.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\mdc.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\mersenne.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\misc.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\modarith.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\modes.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\modexppc.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\mqueue.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\mqv.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\naclite.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\nbtheory.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\network.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\nr.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\oaep.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\oids.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\osrng.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\ossig.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\padlkrng.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\panama.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\pch.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\pkcspad.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\poly1305.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\polynomi.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\ppc-simd.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\pssr.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\pubkey.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\pwdbased.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\queue.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\rabin.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\randpool.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\rc2.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\rc5.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\rc6.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\rdrand.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\resource.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\rijndael.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\ripemd.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\rng.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\rsa.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\rw.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\safer.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\salsa.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\seal.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\secblock.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\seckey.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\seed.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\serpent.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\serpentp.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\sha.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\sha3.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\shacal2.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\shark.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\simon.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\simple.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\siphash.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\skipjack.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\sm3.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\sm4.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\smartptr.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\socketft.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\sosemanuk.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\speck.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\square.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\stdcpp.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\strciphr.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\tea.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\threefish.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\tiger.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\trap.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\trdlocal.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\trunhash.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\ttmac.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\tweetnacl.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\twofish.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\validate.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\vmac.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\wait.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\wake.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\whrlpool.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\winpipes.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\words.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\xtr.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\xtrcrypt.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\zdeflate.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\zinflate.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\zlib.h" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\3way.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\adhoc.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\adler32.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\algebra.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\algparam.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\arc4.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\aria-simd.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\aria.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\ariatab.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\asn.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\authenc.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\base32.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\base64.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\basecode.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\bench1.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\bench2.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\bfinit.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\blake2-simd.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\blake2.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\blowfish.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\blumshub.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\camellia.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\cast.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\casts.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\cbcmac.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\ccm.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\chacha.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\channels.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\cmac.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\cpu.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\crc-simd.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\crc.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\cryptlib.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\datatest.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\default.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\des.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\dessp.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\dh.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\dh2.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\dll.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\dlltest.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\dsa.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\eax.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\ec2n.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\eccrypto.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\ecp.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\elgamal.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\emsa2.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\eprecomp.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\esign.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\files.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\filters.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\fips140.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\fipsalgt.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\fipstest.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\gcm-simd.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\gcm.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\gf256.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\gf2_32.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\gf2n.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\gfpcrypt.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\gost.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\gzip.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\hex.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\hmac.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\hrtimer.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\ida.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\idea.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\integer.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\iterhash.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\kalyna.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\kalynatab.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\keccak.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\luc.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\mars.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\marss.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\md2.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\md4.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\md5.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\misc.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\modes.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\mqueue.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\mqv.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\nbtheory.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\neon-simd.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\network.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\oaep.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\osrng.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\padlkrng.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\panama.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\pch.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\pkcspad.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\poly1305.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\polynomi.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\ppc-simd.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\pssr.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\pubkey.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\queue.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\rabin.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\randpool.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\rc2.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\rc5.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\rc6.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\rdrand.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\rdtables.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\regtest1.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\regtest2.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\regtest3.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\rijndael-simd.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\rijndael.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\ripemd.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\rng.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\rsa.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\rw.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\safer.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\salsa.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\seal.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\seed.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\serpent.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\sha-simd.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\sha.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\sha3.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\shacal2-simd.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\shacal2.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\shark.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\sharkbox.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\simon-simd.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\simon.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\simple.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\skipjack.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\sm3.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\sm4.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\socketft.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\sosemanuk.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\speck-simd.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\speck.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\square.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\squaretb.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\sse-simd.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\strciphr.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\tea.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\test.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\tftables.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\threefish.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\tiger.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\tigertab.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\trdlocal.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\ttmac.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\tweetnacl.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\twofish.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\validat0.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\validat1.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\validat2.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\validat3.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\validat4.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\vmac.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\wait.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\wake.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\whrlpool.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\winpipes.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\xtr.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\xtrcrypt.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\zdeflate.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\zinflate.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\zlib.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\ZERO_CHECK.vcxproj">
+      <Project>{DFA87B6F-CF3E-3DB6-A62B-643C01577C4D}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

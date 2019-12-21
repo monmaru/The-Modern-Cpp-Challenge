@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibAesgm\aescrypt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibAesgm\aeskey.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibAesgm\aes_modes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibAesgm\aes_ni.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibAesgm\aestab.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibAesgm\aescpp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibAesgm\aes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibAesgm\aes_ni.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibAesgm\aesopt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibAesgm\aestab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibAesgm\aes_via_ace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibAesgm\brg_endian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibAesgm\brg_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibAesgm\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DF76371D-83DE-303E-AF6D-8205CF60FF7D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3CCE3BC7-B66C-3A37-8B2C-2EF5B3FEE07B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

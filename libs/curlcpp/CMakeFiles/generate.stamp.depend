@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.16/Modules/FindCURL.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/FindPkgConfig.cmake
+C:/dev/ttt/The-Modern-Cpp-Challenge/libs/curlcpp/CMake/curlcppConfig.cmake.in
+C:/dev/ttt/The-Modern-Cpp-Challenge/libs/curlcpp/CMakeLists.txt

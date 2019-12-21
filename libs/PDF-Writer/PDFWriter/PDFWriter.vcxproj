@@ -1,0 +1,633 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5FE2B2D8-0227-35AF-8BC6-440176D05595}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>PDFWriter</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">PDFWriter.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">PDFWriter</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">PDFWriter.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">PDFWriter</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">PDFWriter.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">PDFWriter</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">PDFWriter.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">PDFWriter</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibAesgm;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\ZLib;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibJpeg;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibTiff;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\FreeType\include;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibPng;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibAesgm;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\ZLib;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibJpeg;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibTiff;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\FreeType\include;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibPng;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibAesgm;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\ZLib;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibJpeg;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibTiff;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\FreeType\include;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibPng;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibAesgm;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\ZLib;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibJpeg;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibTiff;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\FreeType\include;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibPng;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibAesgm;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\ZLib;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibJpeg;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibTiff;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\FreeType\include;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibPng;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibAesgm;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\ZLib;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibJpeg;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibTiff;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\FreeType\include;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibPng;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibAesgm;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\ZLib;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibJpeg;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibTiff;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\FreeType\include;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibPng;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibAesgm;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\ZLib;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibJpeg;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibTiff;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\FreeType\include;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibPng;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibAesgm;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\ZLib;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibJpeg;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibTiff;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\FreeType\include;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibPng;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibAesgm;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\ZLib;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibJpeg;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibTiff;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\FreeType\include;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibPng;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibAesgm;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\ZLib;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibJpeg;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibTiff;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\FreeType\include;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibPng;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibAesgm;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\ZLib;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibJpeg;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibTiff;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\FreeType\include;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibPng;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/dev/ttt/The-Modern-Cpp-Challenge/libs/PDF-Writer/PDFWriter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/dev/ttt/The-Modern-Cpp-Challenge -BC:/dev/ttt/The-Modern-Cpp-Challenge --check-stamp-file C:/dev/ttt/The-Modern-Cpp-Challenge/libs/PDF-Writer/PDFWriter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/dev/ttt/The-Modern-Cpp-Challenge/libs/PDF-Writer/PDFWriter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/dev/ttt/The-Modern-Cpp-Challenge -BC:/dev/ttt/The-Modern-Cpp-Challenge --check-stamp-file C:/dev/ttt/The-Modern-Cpp-Challenge/libs/PDF-Writer/PDFWriter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/dev/ttt/The-Modern-Cpp-Challenge/libs/PDF-Writer/PDFWriter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/dev/ttt/The-Modern-Cpp-Challenge -BC:/dev/ttt/The-Modern-Cpp-Challenge --check-stamp-file C:/dev/ttt/The-Modern-Cpp-Challenge/libs/PDF-Writer/PDFWriter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/dev/ttt/The-Modern-Cpp-Challenge/libs/PDF-Writer/PDFWriter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/dev/ttt/The-Modern-Cpp-Challenge -BC:/dev/ttt/The-Modern-Cpp-Challenge --check-stamp-file C:/dev/ttt/The-Modern-Cpp-Challenge/libs/PDF-Writer/PDFWriter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\AbstractContentContext.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\AbstractWrittenFont.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\ANSIFontWriter.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\Ascii7Encoding.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\ArrayOfInputStreamsStream.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\CatalogInformation.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\CFFANSIFontWriter.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\CFFDescendentFontWriter.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\CFFEmbeddedFontWriter.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\CFFFileInput.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\CFFPrimitiveReader.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\CFFPrimitiveWriter.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\CharStringType1Interpreter.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\CharStringType1Tracer.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\CharStringType2Flattener.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\CharStringType2Interpreter.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\CharStringType2Tracer.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\CIDFontWriter.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\CMYKRGBColor.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\DecryptionHelper.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\DescendentFontWriter.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\DictionaryContext.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\DocumentContext.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\EncryptionHelper.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\EncryptionOptions.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\FontDescriptorWriter.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\FreeTypeFaceWrapper.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\FreeTypeOpenTypeWrapper.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\FreeTypeType1Wrapper.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\FreeTypeWrapper.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\GraphicState.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\GraphicStateStack.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\IndirectObjectsReferenceRegistry.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\InfoDictionary.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\InputAESDecodeStream.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\InputAscii85DecodeStream.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\InputAsciiHexDecodeStream.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\InputBufferedStream.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\InputByteArrayStream.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\InputCharStringDecodeStream.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\InputDCTDecodeStream.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\InputFile.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\InputFileStream.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\InputFlateDecodeStream.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\InputLimitedStream.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\InputRC4XcodeStream.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\InputPFBDecodeStream.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\InputPredictorPNGOptimumStream.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\InputPredictorTIFFSubStream.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\InputStreamSkipperStream.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\InputStringBufferStream.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\InputStringStream.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\JPEGImageHandler.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\JPEGImageInformation.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\JPEGImageParser.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\Log.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\MD5Generator.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\RC4.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\ObjectsContext.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\OpenTypeFileInput.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\OpenTypePrimitiveReader.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\OutputAESEncodeStream.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\OutputBufferedStream.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\OutputFile.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\OutputFileStream.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\OutputFlateDecodeStream.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\OutputFlateEncodeStream.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\OutputRC4XcodeStream.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\OutputStreamTraits.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\OutputStringBufferStream.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PageContentContext.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PageTree.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\ParsedPrimitiveHelper.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFArray.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFBoolean.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFDate.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFDictionary.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFDocEncoding.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFDocumentCopyingContext.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFDocumentHandler.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFFormXObject.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFTiledPattern.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\TiledPatternContentContext.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFHexString.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFImageXObject.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFIndirectObjectReference.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFInteger.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFLiteralString.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFModifiedPage.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFName.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFNull.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFObject.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFObjectParser.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFPage.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFPageInput.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFDictionaryIterator.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFArrayIterator.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFPageMergingHelper.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFParser.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFParserTokenizer.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFParsingOptions.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFReal.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFRectangle.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFStream.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFStreamInput.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFSymbol.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFTextString.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFUsedFont.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFWriter.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PFMFileReader.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PNGImageHandler.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PrimitiveObjectsWriter.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PSBool.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\RefCountObject.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\ResourcesDictionary.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\SimpleStringTokenizer.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\StandardEncoding.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\StateReader.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\StateWriter.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\TIFFImageHandler.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\TiffUsageParameters.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\Timer.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\TimersRegistry.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\Trace.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\TrailerInformation.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\TrueTypeANSIFontWriter.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\TrueTypeDescendentFontWriter.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\TrueTypeEmbeddedFontWriter.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\TrueTypePrimitiveWriter.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\Type1Input.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\Type1ToCFFEmbeddedFontWriter.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\Type1ToType2Converter.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\Type2CharStringWriter.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\UnicodeString.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\UppercaseSequance.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\UsedFontsRepository.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\WinAnsiEncoding.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\WrittenFontCFF.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\WrittenFontTrueType.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\XCryptionCommon.cpp" />
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\XObjectContentContext.cpp" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\AbstractContentContext.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\AbstractWrittenFont.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\AdapterIByteReaderWithPositionToIReadPositionProvider.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\ANSIFontWriter.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\Ascii7Encoding.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\ArrayOfInputStreamsStream.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\BetweenIncluding.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\BoxingBase.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\CatalogInformation.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\CFFANSIFontWriter.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\CFFDescendentFontWriter.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\CFFEmbeddedFontWriter.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\CFFFileInput.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\CFFPrimitiveReader.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\CFFPrimitiveWriter.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\CharStringDefinitions.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\CharStringType1Interpreter.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\CharStringType1Tracer.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\CharStringType2Flattener.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\CharStringType2Interpreter.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\CharStringType2Tracer.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\CIDFontWriter.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\CMYKRGBColor.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\ContainerIterator.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\DecryptionHelper.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\DescendentFontWriter.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\DictionaryContext.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\DictOperand.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\DocumentContext.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\DocumentContextExtenderAdapter.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\EFontStretch.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\EHummusImageType.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\EncryptionHelper.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\EncryptionOptions.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\EPDFVersion.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\EStatusCode.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\ETokenSeparator.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\FontDescriptorWriter.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\FreeTypeFaceWrapper.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\FreeTypeOpenTypeWrapper.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\FreeTypeType1Wrapper.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\FreeTypeWrapper.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\FSType.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\GlyphUnicodeMapping.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\GraphicState.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\GraphicStateStack.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\IANSIFontWriterHelper.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\IByteReader.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\IByteReaderWithPosition.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\IByteWriter.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\IByteWriterWithPosition.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\IContentContextListener.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\IDescendentFontWriter.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\IDocumentContextExtender.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\IFontDescriptorHelper.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\IFormEndWritingTask.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\ITiledPatternEndWritingTask.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\IFreeTypeFaceExtender.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\IndirectObjectsReferenceRegistry.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\InfoDictionary.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\InputAESDecodeStream.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\InputAscii85DecodeStream.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\InputAsciiHexDecodeStream.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\InputBufferedStream.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\InputByteArrayStream.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\InputCharStringDecodeStream.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\InputDCTDecodeStream.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\InputFile.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\InputFileStream.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\InputFlateDecodeStream.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\InputLimitedStream.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\InputRC4XcodeStream.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\InputPFBDecodeStream.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\InputPredictorPNGOptimumStream.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\InputPredictorTIFFSubStream.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\InputStreamSkipperStream.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\InputStringBufferStream.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\InputStringStream.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\IOBasicTypes.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\IObjectsContextExtender.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\IPageEndWritingTask.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\IPDFParserExtender.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\IReadPositionProvider.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\IResourceWritingTask.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\IType1InterpreterImplementation.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\IType2InterpreterImplementation.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\IWrittenFont.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\JPEGImageHandler.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\JPEGImageInformation.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\JPEGImageParser.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\Log.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\MapIterator.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\MD5Generator.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\RC4.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\MyStringBuf.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\ObjectsBasicTypes.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\ObjectsContext.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\ObjectsContextExtenderAdapter.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\OpenTypeFileInput.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\OpenTypePrimitiveReader.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\OutputAESEncodeStream.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\OutputBufferedStream.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\OutputFile.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\OutputFileStream.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\OutputFlateDecodeStream.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\OutputFlateEncodeStream.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\OutputRC4XcodeStream.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\OutputStreamTraits.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\OutputStringBufferStream.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PageContentContext.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PageTree.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\ParsedPrimitiveHelper.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFArray.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFBoolean.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFDate.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFDictionary.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFDocEncoding.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFDocumentCopyingContext.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFDocumentHandler.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFEmbedParameterTypes.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFFormXObject.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFTiledPattern.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\TiledPatternContentContext.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFHexString.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFImageXObject.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFIndirectObjectReference.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFInteger.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFLiteralString.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFModifiedPage.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFName.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFNull.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFObject.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFObjectCast.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFObjectParser.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFPage.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFPageInput.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFDictionaryIterator.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFArrayIterator.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFPageMergingHelper.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFParser.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFParserTokenizer.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFParsingOptions.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFReal.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFRectangle.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFStream.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFStreamInput.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFSymbol.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFTextString.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFUsedFont.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFWriter.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PFMFileReader.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PNGImageHandler.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PrimitiveObjectsWriter.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\ProcsetResourcesConstants.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PSBool.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\RefCountObject.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\RefCountPtr.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\ResourcesDictionary.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\SafeBufferMacrosDefs.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\SimpleStringTokenizer.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\Singleton.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\SingleValueContainerIterator.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\StandardEncoding.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\StateReader.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\StateWriter.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\TIFFImageHandler.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\TiffUsageParameters.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\Timer.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\TimersRegistry.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\Trace.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\TrailerInformation.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\TrueTypeANSIFontWriter.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\TrueTypeDescendentFontWriter.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\TrueTypeEmbeddedFontWriter.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\TrueTypePrimitiveWriter.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\Type1Input.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\Type1ToCFFEmbeddedFontWriter.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\Type1ToType2Converter.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\Type2CharStringWriter.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\UnicodeString.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\UppercaseSequance.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\UsedFontsRepository.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\WinAnsiEncoding.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\WrittenFontCFF.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\WrittenFontRepresentation.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\WrittenFontTrueType.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\XCryptionCommon.h" />
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\XObjectContentContext.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\ZERO_CHECK.vcxproj">
+      <Project>{DFA87B6F-CF3E-3DB6-A62B-643C01577C4D}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\FreeType\FreeType.vcxproj">
+      <Project>{C1239663-7BE0-3044-97EC-8D5858688073}</Project>
+      <Name>FreeType</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibAesgm\LibAesgm.vcxproj">
+      <Project>{A5D190FD-D601-39D5-925D-0DBF31752A1A}</Project>
+      <Name>LibAesgm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibJpeg\LibJpeg.vcxproj">
+      <Project>{9908DF2B-06BA-3011-9551-E1864991F54E}</Project>
+      <Name>LibJpeg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibTiff\LibTiff.vcxproj">
+      <Project>{83FC6CB3-131F-3053-BA67-38E830FCAFA7}</Project>
+      <Name>LibTiff</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\ZLib\Zlib.vcxproj">
+      <Project>{E5CFD68C-0EFE-3295-8639-0FBB3C50090D}</Project>
+      <Name>Zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

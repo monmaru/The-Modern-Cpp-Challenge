@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\7zAlloc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\7zBuf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\7zBuf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\7zCrc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\7zCrcOpt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\7zDec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\7zFile.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\7zIn.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\7zStream.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\Alloc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\Bcj2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\Bra.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\Bra86.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\BraIA64.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\CpuArch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\Delta.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\LzFind.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\LzFindMt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\Lzma2Dec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\Lzma2Enc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\Lzma86Dec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\Lzma86Enc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\LzmaDec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\LzmaEnc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\LzmaLib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\MtCoder.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\Ppmd7.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\Ppmd7Dec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\Ppmd7Enc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\Sha256.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\Threads.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\Xz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\XzCrc64.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\XzDec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\XzEnc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\XzIn.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\7z.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\7zAlloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\7zBuf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\7zCrc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\7zFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\7zVersion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\Alloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\Bcj2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\Bra.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\CpuArch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\Delta.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\LzFind.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\LzFindMt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\LzHash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\Lzma2Dec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\Lzma2Enc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\Lzma86.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\LzmaDec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\LzmaEnc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\LzmaLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\MtCoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\Ppmd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\Ppmd7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\RotateDefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\Sha256.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\Threads.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\Types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\Xz.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\XzCrc64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\XzEnc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DF76371D-83DE-303E-AF6D-8205CF60FF7D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3CCE3BC7-B66C-3A37-8B2C-2EF5B3FEE07B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

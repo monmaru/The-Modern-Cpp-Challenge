@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\ZLib\adler32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\ZLib\compress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\ZLib\crc32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\ZLib\deflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\ZLib\gzclose.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\ZLib\gzlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\ZLib\gzread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\ZLib\gzwrite.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\ZLib\infback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\ZLib\inffast.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\ZLib\inflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\ZLib\inftrees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\ZLib\trees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\ZLib\uncompr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\ZLib\zutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\ZLib\crc32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\ZLib\deflate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\ZLib\gzguts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\ZLib\inffast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\ZLib\inffixed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\ZLib\inflate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\ZLib\inftrees.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\ZLib\trees.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\ZLib\zconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\ZLib\zlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\ZLib\zutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\ZLib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DF76371D-83DE-303E-AF6D-8205CF60FF7D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3CCE3BC7-B66C-3A37-8B2C-2EF5B3FEE07B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

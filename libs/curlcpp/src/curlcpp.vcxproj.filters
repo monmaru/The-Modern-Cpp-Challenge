@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\curlcpp\src\curl_easy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\curlcpp\src\curl_header.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\curlcpp\src\curl_global.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\curlcpp\src\curl_form.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\curlcpp\src\curl_multi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\curlcpp\src\curl_share.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\curlcpp\src\curl_info.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\curlcpp\src\curl_cookie.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\curlcpp\src\curl_exception.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\curlcpp\src\cookie.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\curlcpp\src\cookie_date.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\curlcpp\src\cookie_time.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\curlcpp\src\cookie_datetime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\curlcpp\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3CCE3BC7-B66C-3A37-8B2C-2EF5B3FEE07B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

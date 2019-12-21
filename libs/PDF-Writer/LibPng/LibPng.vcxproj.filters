@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibPng\png.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibPng\pngerror.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibPng\pngget.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibPng\pngmem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibPng\pngpread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibPng\pngread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibPng\pngrio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibPng\pngrtran.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibPng\pngrutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibPng\pngset.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibPng\pngtrans.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibPng\pngwio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibPng\pngwrite.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibPng\pngwtran.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibPng\pngwutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibPng\png.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibPng\pngconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibPng\pngdebug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibPng\pnginfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibPng\pnglibconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibPng\pngpriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibPng\pngstruct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibPng\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DF76371D-83DE-303E-AF6D-8205CF60FF7D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3CCE3BC7-B66C-3A37-8B2C-2EF5B3FEE07B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\ttt\The-Modern-Cpp-Challenge\CMakeFiles\8a4967ef05073ab39c260f93d2637ffd\uninstall.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\curl\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\curl\CMakeFiles\uninstall" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{28385F26-22CC-3875-862B-8BE00BFEFC87}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

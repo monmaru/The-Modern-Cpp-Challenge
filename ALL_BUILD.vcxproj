@@ -1,0 +1,637 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E4B6E54F-461E-3FF8-8A2A-E2F7F253E0FE}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\ttt\The-Modern-Cpp-Challenge\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/dev/ttt/The-Modern-Cpp-Challenge/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/dev/ttt/The-Modern-Cpp-Challenge -BC:/dev/ttt/The-Modern-Cpp-Challenge --check-stamp-file C:/dev/ttt/The-Modern-Cpp-Challenge/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.16\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;C:\dev\ttt\The-Modern-Cpp-Challenge\CMakeFiles\3.16.2\CMakeCCompiler.cmake;C:\dev\ttt\The-Modern-Cpp-Challenge\CMakeFiles\3.16.2\CMakeCXXCompiler.cmake;C:\dev\ttt\The-Modern-Cpp-Challenge\CMakeFiles\3.16.2\CMakeRCCompiler.cmake;C:\dev\ttt\The-Modern-Cpp-Challenge\CMakeFiles\3.16.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\dev\ttt\The-Modern-Cpp-Challenge\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/dev/ttt/The-Modern-Cpp-Challenge/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/dev/ttt/The-Modern-Cpp-Challenge -BC:/dev/ttt/The-Modern-Cpp-Challenge --check-stamp-file C:/dev/ttt/The-Modern-Cpp-Challenge/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.16\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;C:\dev\ttt\The-Modern-Cpp-Challenge\CMakeFiles\3.16.2\CMakeCCompiler.cmake;C:\dev\ttt\The-Modern-Cpp-Challenge\CMakeFiles\3.16.2\CMakeCXXCompiler.cmake;C:\dev\ttt\The-Modern-Cpp-Challenge\CMakeFiles\3.16.2\CMakeRCCompiler.cmake;C:\dev\ttt\The-Modern-Cpp-Challenge\CMakeFiles\3.16.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\dev\ttt\The-Modern-Cpp-Challenge\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/dev/ttt/The-Modern-Cpp-Challenge/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/dev/ttt/The-Modern-Cpp-Challenge -BC:/dev/ttt/The-Modern-Cpp-Challenge --check-stamp-file C:/dev/ttt/The-Modern-Cpp-Challenge/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.16\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;C:\dev\ttt\The-Modern-Cpp-Challenge\CMakeFiles\3.16.2\CMakeCCompiler.cmake;C:\dev\ttt\The-Modern-Cpp-Challenge\CMakeFiles\3.16.2\CMakeCXXCompiler.cmake;C:\dev\ttt\The-Modern-Cpp-Challenge\CMakeFiles\3.16.2\CMakeRCCompiler.cmake;C:\dev\ttt\The-Modern-Cpp-Challenge\CMakeFiles\3.16.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\dev\ttt\The-Modern-Cpp-Challenge\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/dev/ttt/The-Modern-Cpp-Challenge/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/dev/ttt/The-Modern-Cpp-Challenge -BC:/dev/ttt/The-Modern-Cpp-Challenge --check-stamp-file C:/dev/ttt/The-Modern-Cpp-Challenge/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.16\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;C:\dev\ttt\The-Modern-Cpp-Challenge\CMakeFiles\3.16.2\CMakeCCompiler.cmake;C:\dev\ttt\The-Modern-Cpp-Challenge\CMakeFiles\3.16.2\CMakeCXXCompiler.cmake;C:\dev\ttt\The-Modern-Cpp-Challenge\CMakeFiles\3.16.2\CMakeRCCompiler.cmake;C:\dev\ttt\The-Modern-Cpp-Challenge\CMakeFiles\3.16.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\dev\ttt\The-Modern-Cpp-Challenge\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\ZERO_CHECK.vcxproj">
+      <Project>{DFA87B6F-CF3E-3DB6-A62B-643C01577C4D}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\FreeType\FreeType.vcxproj">
+      <Project>{C1239663-7BE0-3044-97EC-8D5858688073}</Project>
+      <Name>FreeType</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibAesgm\LibAesgm.vcxproj">
+      <Project>{A5D190FD-D601-39D5-925D-0DBF31752A1A}</Project>
+      <Name>LibAesgm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibJpeg\LibJpeg.vcxproj">
+      <Project>{9908DF2B-06BA-3011-9551-E1864991F54E}</Project>
+      <Name>LibJpeg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibPng\LibPng.vcxproj">
+      <Project>{E5A0A86E-3520-3AAE-8B85-6870DC5A72CB}</Project>
+      <Name>LibPng</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibTiff\LibTiff.vcxproj">
+      <Project>{83FC6CB3-131F-3053-BA67-38E830FCAFA7}</Project>
+      <Name>LibTiff</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFWriter.vcxproj">
+      <Project>{5FE2B2D8-0227-35AF-8BC6-440176D05595}</Project>
+      <Name>PDFWriter</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PNGWriter\PngWriter.vcxproj">
+      <Project>{AB189FC3-201E-3366-8913-023D12CC9FCE}</Project>
+      <Name>PngWriter</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\ZipLib.vcxproj">
+      <Project>{57C37D0D-0DD0-3654-B438-4F446404D3F9}</Project>
+      <Name>ZipLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\ZLib\Zlib.vcxproj">
+      <Project>{E5CFD68C-0EFE-3295-8639-0FBB3C50090D}</Project>
+      <Name>Zlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\bzip2\bzip2.vcxproj">
+      <Project>{98A9059C-F05D-3C4E-BBEB-BE5E8CD18BEF}</Project>
+      <Name>bzip2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\cryptopp\cryptlib.vcxproj">
+      <Project>{4E0FD2BD-A739-3EFC-862D-9F8BB392E60D}</Project>
+      <Name>cryptlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\curlcpp\src\curlcpp.vcxproj">
+      <Project>{ED308802-DC97-3616-9E33-C9774F351DCA}</Project>
+      <Name>curlcpp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\curl\lib\libcurl.vcxproj">
+      <Project>{80066B36-190B-30AA-BA6E-8FE2E5FC6BC0}</Project>
+      <Name>libcurl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\lzma.vcxproj">
+      <Project>{AC69C7FC-0C4B-33CF-929D-79E235030E46}</Project>
+      <Name>lzma</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter01\problem_01\problem_01.vcxproj">
+      <Project>{E14669F6-AA15-326C-BEF7-807A71937ACB}</Project>
+      <Name>problem_01</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter01\problem_02\problem_02.vcxproj">
+      <Project>{24234112-8AA1-3722-A400-8C292AD222E4}</Project>
+      <Name>problem_02</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter01\problem_03\problem_03.vcxproj">
+      <Project>{B0542EFC-8BF6-3851-A902-D7A3A889E01C}</Project>
+      <Name>problem_03</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter01\problem_04\problem_04.vcxproj">
+      <Project>{42A4F621-C21C-3A6C-B710-38960938C945}</Project>
+      <Name>problem_04</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter01\problem_05\problem_05.vcxproj">
+      <Project>{7BAD6F92-07CF-31FF-89AF-EAE04D7FC065}</Project>
+      <Name>problem_05</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter01\problem_06\problem_06.vcxproj">
+      <Project>{9D177A94-F075-3C97-9D7C-4DC8EF4B4F80}</Project>
+      <Name>problem_06</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter01\problem_07\problem_07.vcxproj">
+      <Project>{2CC49AE3-F527-31AC-B349-1DFB7CBD689E}</Project>
+      <Name>problem_07</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter01\problem_08\problem_08.vcxproj">
+      <Project>{8DE33E73-1362-35AF-876B-7642350D05EB}</Project>
+      <Name>problem_08</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter01\problem_09\problem_09.vcxproj">
+      <Project>{14B3BE0C-0F90-37E5-A0B4-9DB26B3DC4F0}</Project>
+      <Name>problem_09</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter01\problem_10\problem_10.vcxproj">
+      <Project>{1E7F9521-E6DB-3CC3-8396-456C0BDFB6B4}</Project>
+      <Name>problem_10</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter01\problem_11\problem_11.vcxproj">
+      <Project>{C43490A7-DAA1-31A1-9293-A75F6E202FA5}</Project>
+      <Name>problem_11</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter01\problem_12\problem_12.vcxproj">
+      <Project>{8D28E906-B54D-3971-AF7F-9AD48EFE4450}</Project>
+      <Name>problem_12</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter01\problem_13\problem_13.vcxproj">
+      <Project>{7A8E6A5F-DA16-39C0-AC09-1A64C3CEBD8C}</Project>
+      <Name>problem_13</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter01\problem_14\problem_14.vcxproj">
+      <Project>{2E01BA4F-CA78-3266-8ADB-D47EAB48BFEA}</Project>
+      <Name>problem_14</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter02\problem_15\problem_15.vcxproj">
+      <Project>{F7008241-2723-3E3C-89C0-C08DE13B429A}</Project>
+      <Name>problem_15</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter02\problem_16\problem_16.vcxproj">
+      <Project>{7C43E267-EB28-3CB6-9FBA-302FF14DF9E6}</Project>
+      <Name>problem_16</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter02\problem_17\problem_17.vcxproj">
+      <Project>{5AC1451E-6BD8-3968-8DE1-45F854DBC962}</Project>
+      <Name>problem_17</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter02\problem_18\problem_18.vcxproj">
+      <Project>{208AFA98-D117-3409-A5C7-C68962FBD9F3}</Project>
+      <Name>problem_18</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter02\problem_19\problem_19.vcxproj">
+      <Project>{C30E03FE-B510-3C19-A905-8A320FE1286E}</Project>
+      <Name>problem_19</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter02\problem_20\problem_20.vcxproj">
+      <Project>{4720A3B5-959A-3D06-9703-9575E66C5ACE}</Project>
+      <Name>problem_20</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter02\problem_21\problem_21.vcxproj">
+      <Project>{97ECCA69-3C7A-309B-95C5-DB07F3FB10A5}</Project>
+      <Name>problem_21</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter02\problem_22\problem_22.vcxproj">
+      <Project>{DCA57271-FB6A-30A0-A610-3F056A1F103B}</Project>
+      <Name>problem_22</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter03\problem_23\problem_23.vcxproj">
+      <Project>{43F1A17C-91CB-32C3-B27E-EEB058A527AF}</Project>
+      <Name>problem_23</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter03\problem_24\problem_24.vcxproj">
+      <Project>{8DA1037F-B099-3DC2-8230-578D20F3EAFF}</Project>
+      <Name>problem_24</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter03\problem_25\problem_25.vcxproj">
+      <Project>{6442A9AD-9E9B-3DA7-AD1A-A3139043CC32}</Project>
+      <Name>problem_25</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter03\problem_26\problem_26.vcxproj">
+      <Project>{367E3D4C-FF72-3536-8724-8805CDFAFAC5}</Project>
+      <Name>problem_26</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter03\problem_27\problem_27.vcxproj">
+      <Project>{6AED84A3-996F-350D-8933-873F617201BC}</Project>
+      <Name>problem_27</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter03\problem_28\problem_28.vcxproj">
+      <Project>{B443A0AD-C0A6-3494-873D-82E265B67C8A}</Project>
+      <Name>problem_28</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter03\problem_29\problem_29.vcxproj">
+      <Project>{95B92536-8E61-3EAB-BBB0-20660A5A5095}</Project>
+      <Name>problem_29</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter03\problem_30\problem_30.vcxproj">
+      <Project>{8449CC76-B27D-359D-87E7-E1AFBB018AF1}</Project>
+      <Name>problem_30</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter03\problem_31\problem_31.vcxproj">
+      <Project>{B8682903-84EC-382C-94A5-68D0D93EAB99}</Project>
+      <Name>problem_31</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter04\problem_32\problem_32.vcxproj">
+      <Project>{A6A26559-18D8-3012-93BD-F2F2F637A26B}</Project>
+      <Name>problem_32</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter04\problem_33\problem_33.vcxproj">
+      <Project>{6644A753-B3CF-3A04-B427-3676A61204B1}</Project>
+      <Name>problem_33</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter04\problem_34\problem_34.vcxproj">
+      <Project>{E7DAF54D-30FD-3F10-A28A-DD6B4F16F7C1}</Project>
+      <Name>problem_34</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter04\problem_35\problem_35.vcxproj">
+      <Project>{CE37F147-A968-31CE-8813-2B65109C6FBA}</Project>
+      <Name>problem_35</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter04\problem_36\problem_36.vcxproj">
+      <Project>{F5F98EF1-A583-365C-888D-59D75E3A701F}</Project>
+      <Name>problem_36</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter04\problem_37\problem_37.vcxproj">
+      <Project>{5E3E4C30-8A24-360F-A9B1-5814522F8870}</Project>
+      <Name>problem_37</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter04\problem_38\problem_38.vcxproj">
+      <Project>{C681D536-C5B0-3E9B-A302-3A1F127C6D0B}</Project>
+      <Name>problem_38</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter05\problem_39\problem_39.vcxproj">
+      <Project>{A0AE1881-51C3-306A-92E3-9C9DDE7A9B7F}</Project>
+      <Name>problem_39</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter05\problem_40\problem_40.vcxproj">
+      <Project>{4AC43CDC-3ABF-3464-A4C6-37BE9E11C0E7}</Project>
+      <Name>problem_40</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter05\problem_41\problem_41.vcxproj">
+      <Project>{C1EAF316-89C5-38AA-9199-454FA322C6B4}</Project>
+      <Name>problem_41</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter05\problem_42\problem_42.vcxproj">
+      <Project>{E1771523-8D38-3C98-90B2-4AF36383FB1C}</Project>
+      <Name>problem_42</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter05\problem_43\problem_43.vcxproj">
+      <Project>{58246A88-1515-36EC-9E86-C2CDCBBE9997}</Project>
+      <Name>problem_43</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter05\problem_44\problem_44.vcxproj">
+      <Project>{60A9C601-6340-3B8D-B741-845819B4891A}</Project>
+      <Name>problem_44</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter06\problem_45\problem_45.vcxproj">
+      <Project>{217E85B6-0025-3DD8-82F8-85163C336BFB}</Project>
+      <Name>problem_45</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter06\problem_46\problem_46.vcxproj">
+      <Project>{8BBD7848-CDEF-3105-9E71-DBB6C61B1415}</Project>
+      <Name>problem_46</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter06\problem_47\problem_47.vcxproj">
+      <Project>{52B2419E-7F99-33FF-9BB3-83A260967022}</Project>
+      <Name>problem_47</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter06\problem_48\problem_48.vcxproj">
+      <Project>{435BC69D-BC5D-3C3F-B24D-7696FDCD0C20}</Project>
+      <Name>problem_48</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter06\problem_49\problem_49.vcxproj">
+      <Project>{2A95C707-AEAA-3F26-874C-B44248154A65}</Project>
+      <Name>problem_49</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter06\problem_50\problem_50.vcxproj">
+      <Project>{1E260C9E-3FD5-36E2-A1A4-99BC33997E6E}</Project>
+      <Name>problem_50</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter06\problem_51\problem_51.vcxproj">
+      <Project>{0387F950-150B-31D6-9094-ADAF8720A00E}</Project>
+      <Name>problem_51</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter06\problem_52\problem_52.vcxproj">
+      <Project>{FD95B73A-0C40-31EC-9873-B6577130FE6F}</Project>
+      <Name>problem_52</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter06\problem_53\problem_53.vcxproj">
+      <Project>{509BFEA2-F337-3E76-9EEF-6D20AA29FC84}</Project>
+      <Name>problem_53</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter06\problem_54\problem_54.vcxproj">
+      <Project>{2911660D-D69C-3E73-8172-677907DA36E2}</Project>
+      <Name>problem_54</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter06\problem_55\problem_55.vcxproj">
+      <Project>{06870E4D-F7CF-3642-B4AD-090534B697FC}</Project>
+      <Name>problem_55</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter06\problem_56\problem_56.vcxproj">
+      <Project>{C8C8E975-EF17-3B30-B81F-CFBFD7A0E3BC}</Project>
+      <Name>problem_56</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter06\problem_57\problem_57.vcxproj">
+      <Project>{3C4995B3-4EF7-39E9-9A52-B343C6D9F765}</Project>
+      <Name>problem_57</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter06\problem_58\problem_58.vcxproj">
+      <Project>{C53B9909-93FF-361C-8273-F89021731417}</Project>
+      <Name>problem_58</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter06\problem_59\problem_59.vcxproj">
+      <Project>{FCD37ED5-E556-39DC-BA59-3BA0F45C1A39}</Project>
+      <Name>problem_59</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter06\problem_60\problem_60.vcxproj">
+      <Project>{8165CE38-C65D-36BE-B28B-BF83122C2DE6}</Project>
+      <Name>problem_60</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter07\problem_61\problem_61.vcxproj">
+      <Project>{B7367F7C-C8E6-32FB-BE00-688DCD0953A8}</Project>
+      <Name>problem_61</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter07\problem_62\problem_62.vcxproj">
+      <Project>{0F87ED7D-D2EE-391D-8B0E-7B475C56D1CC}</Project>
+      <Name>problem_62</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter07\problem_63\problem_63.vcxproj">
+      <Project>{CB91062A-963D-3A8A-B897-BFCC4FC507CC}</Project>
+      <Name>problem_63</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter07\problem_64\problem_64.vcxproj">
+      <Project>{E5DF60D7-C73E-37F6-B74D-BB803323AF45}</Project>
+      <Name>problem_64</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter07\problem_65\problem_65.vcxproj">
+      <Project>{685A5366-73CB-3327-A009-3F118FD081E4}</Project>
+      <Name>problem_65</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter07\problem_66\problem_66.vcxproj">
+      <Project>{7049580F-5C40-3E4C-B147-0B647DB33BEA}</Project>
+      <Name>problem_66</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter08\problem_67\problem_67.vcxproj">
+      <Project>{50A9BCC5-A769-3F75-92E8-3C7BCA189886}</Project>
+      <Name>problem_67</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter08\problem_68\problem_68.vcxproj">
+      <Project>{5FC8FBE9-2D22-3159-B402-21E6926AFC20}</Project>
+      <Name>problem_68</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter08\problem_69\problem_69.vcxproj">
+      <Project>{510992F5-0CA3-351D-AC1B-8DDD026C1B8F}</Project>
+      <Name>problem_69</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter08\problem_70\problem_70.vcxproj">
+      <Project>{5EDB4B3F-6B7E-3F13-8225-0490A3C3467A}</Project>
+      <Name>problem_70</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter08\problem_71\problem_71.vcxproj">
+      <Project>{90198BCE-722A-348C-9E5B-4C2B92335FA4}</Project>
+      <Name>problem_71</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter08\problem_72\problem_72.vcxproj">
+      <Project>{2D7AC9AF-8C09-31AE-8D68-6E545658A0C3}</Project>
+      <Name>problem_72</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter09\problem_73\problem_73.vcxproj">
+      <Project>{43BAD3E9-A18A-3948-9422-559E8BAD293B}</Project>
+      <Name>problem_73</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter09\problem_74\problem_74.vcxproj">
+      <Project>{9C0CC61C-EA41-347F-961E-2C354AA97954}</Project>
+      <Name>problem_74</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter09\problem_75\problem_75.vcxproj">
+      <Project>{47922A9F-85F3-34DF-8AB9-9F695695C432}</Project>
+      <Name>problem_75</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter09\problem_76\problem_76.vcxproj">
+      <Project>{688CA5D5-626F-328D-899A-557A37D0D595}</Project>
+      <Name>problem_76</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter09\problem_77\problem_77.vcxproj">
+      <Project>{C66A5EF2-D571-3767-8C97-07B4ECBAFA74}</Project>
+      <Name>problem_77</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter09\problem_78\problem_78.vcxproj">
+      <Project>{CE090BB3-CC6E-3EF0-8DDF-1D2D3ECE525A}</Project>
+      <Name>problem_78</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter10\problem_79\problem_79.vcxproj">
+      <Project>{A268944D-A9BB-3FFB-9AA6-591F932D9CA3}</Project>
+      <Name>problem_79</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter10\problem_80\problem_80.vcxproj">
+      <Project>{BEBF9C3F-8807-38C3-882D-AECA6E45A6E3}</Project>
+      <Name>problem_80</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter10\problem_81\problem_81.vcxproj">
+      <Project>{2C0B91EB-597B-3CDD-B6B4-890A306CBC0B}</Project>
+      <Name>problem_81</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter10\problem_82\problem_82.vcxproj">
+      <Project>{02530224-EB32-301A-ACF9-98BE846B55A4}</Project>
+      <Name>problem_82</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter10\problem_83\problem_83.vcxproj">
+      <Project>{A7168237-8580-3E9B-99FD-614ADA3BF4F2}</Project>
+      <Name>problem_83</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter10\problem_84\problem_84.vcxproj">
+      <Project>{C9F04E08-27C7-3F22-B232-7BE89F05BDEC}</Project>
+      <Name>problem_84</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter10\problem_85\problem_85.vcxproj">
+      <Project>{5F19051F-BD4E-3DE2-BE2F-2E486CA70933}</Project>
+      <Name>problem_85</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter10\problem_86\problem_86.vcxproj">
+      <Project>{62B800AA-EC02-38B3-9BEC-53C1B8953C4A}</Project>
+      <Name>problem_86</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter10\problem_87\problem_87.vcxproj">
+      <Project>{19B8C151-5E3A-390E-A67C-D54ACBCE0BE6}</Project>
+      <Name>problem_87</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter11\problem_88\problem_88.vcxproj">
+      <Project>{65C0A2D0-8ECB-3204-8C45-2F2BD6E46504}</Project>
+      <Name>problem_88</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter11\problem_89\problem_89.vcxproj">
+      <Project>{66B1F5B7-9BCC-32B2-8BBF-A893C7DCC485}</Project>
+      <Name>problem_89</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter11\problem_90\problem_90.vcxproj">
+      <Project>{8D864212-26C9-3387-98A0-75BC9D801B20}</Project>
+      <Name>problem_90</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter11\problem_91\problem_91.vcxproj">
+      <Project>{A5E90458-734B-3D77-B532-739338400A2B}</Project>
+      <Name>problem_91</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter11\problem_92\problem_92.vcxproj">
+      <Project>{36CD24FD-CADE-3B3A-840F-1713A56CF0F3}</Project>
+      <Name>problem_92</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter11\problem_93\problem_93.vcxproj">
+      <Project>{5573902B-BB34-36F0-B888-37B818140EAF}</Project>
+      <Name>problem_93</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter11\problem_94\problem_94.vcxproj">
+      <Project>{55CF1572-6F03-33F9-AFE8-ED5C618F582D}</Project>
+      <Name>problem_94</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter12\problem_95\problem_95.vcxproj">
+      <Project>{7118EB62-7D79-3E1E-9C5F-AD99D042A017}</Project>
+      <Name>problem_95</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter12\problem_96c\problem_96c.vcxproj">
+      <Project>{75C64A29-E0BA-32FE-80D4-2F308109FA3E}</Project>
+      <Name>problem_96c</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter12\problem_96s\problem_96s.vcxproj">
+      <Project>{ADBE512F-FDDB-346F-8157-899979439BD8}</Project>
+      <Name>problem_96s</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter12\problem_97\problem_97.vcxproj">
+      <Project>{8B582685-E112-38E6-9C52-ACB927235582}</Project>
+      <Name>problem_97</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter12\problem_98\problem_98.vcxproj">
+      <Project>{B645935D-4667-32D6-974A-FD497550B49A}</Project>
+      <Name>problem_98</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter12\problem_99\problem_99.vcxproj">
+      <Project>{544FE84B-8234-3646-B3C5-87B12DDE2C0D}</Project>
+      <Name>problem_99</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter12\problem_9a\problem_9a.vcxproj">
+      <Project>{74295D52-DCF0-3021-98F3-68445F768489}</Project>
+      <Name>problem_9a</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\zlib\zlib.vcxproj">
+      <Project>{5B6E5745-C9E4-3C32-B2D7-04A222DB0518}</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

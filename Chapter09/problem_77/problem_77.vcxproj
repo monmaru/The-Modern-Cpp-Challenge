@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C66A5EF2-D571-3767-8C97-07B4ECBAFA74}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>problem_77</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\dev\ttt\The-Modern-Cpp-Challenge\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">problem_77.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">problem_77</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\dev\ttt\The-Modern-Cpp-Challenge\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">problem_77.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">problem_77</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\dev\ttt\The-Modern-Cpp-Challenge\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">problem_77.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">problem_77</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\dev\ttt\The-Modern-Cpp-Challenge\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">problem_77.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">problem_77</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\FreeType\include;C:\dev\ttt\The-Modern-Cpp-Challenge\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\FreeType\include;C:\dev\ttt\The-Modern-Cpp-Challenge\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\FreeType\include;C:\dev\ttt\The-Modern-Cpp-Challenge\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\libs\ZipLib\Debug\ZipLib.lib;..\..\libs\PDF-Writer\PDFWriter\Debug\PDFWriter.lib;..\..\libs\PDF-Writer\FreeType\Debug\FreeType.lib;..\..\libs\PDF-Writer\LibAesgm\Debug\LibAesgm.lib;..\..\libs\PDF-Writer\LibJpeg\Debug\LibJpeg.lib;..\..\libs\PDF-Writer\LibPng\Debug\LibPng.lib;..\..\libs\PDF-Writer\LibTiff\Debug\LibTiff.lib;..\..\libs\PDF-Writer\ZLib\Debug\Zlib.lib;..\..\libs\ZipLib\extlibs\bzip2\Debug\bzip2.lib;..\..\libs\ZipLib\extlibs\lzma\Debug\lzma.lib;..\..\libs\ZipLib\extlibs\zlib\Debug\zlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/dev/ttt/The-Modern-Cpp-Challenge/Chapter09/problem_77/Debug/problem_77.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/dev/ttt/The-Modern-Cpp-Challenge/bin/Debug/problem_77.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\FreeType\include;C:\dev\ttt\The-Modern-Cpp-Challenge\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\FreeType\include;C:\dev\ttt\The-Modern-Cpp-Challenge\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\FreeType\include;C:\dev\ttt\The-Modern-Cpp-Challenge\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\libs\ZipLib\Release\ZipLib.lib;..\..\libs\PDF-Writer\PDFWriter\Release\PDFWriter.lib;..\..\libs\PDF-Writer\FreeType\Release\FreeType.lib;..\..\libs\PDF-Writer\LibAesgm\Release\LibAesgm.lib;..\..\libs\PDF-Writer\LibJpeg\Release\LibJpeg.lib;..\..\libs\PDF-Writer\LibPng\Release\LibPng.lib;..\..\libs\PDF-Writer\LibTiff\Release\LibTiff.lib;..\..\libs\PDF-Writer\ZLib\Release\Zlib.lib;..\..\libs\ZipLib\extlibs\bzip2\Release\bzip2.lib;..\..\libs\ZipLib\extlibs\lzma\Release\lzma.lib;..\..\libs\ZipLib\extlibs\zlib\Release\zlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/dev/ttt/The-Modern-Cpp-Challenge/Chapter09/problem_77/Release/problem_77.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/dev/ttt/The-Modern-Cpp-Challenge/bin/Release/problem_77.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\FreeType\include;C:\dev\ttt\The-Modern-Cpp-Challenge\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\FreeType\include;C:\dev\ttt\The-Modern-Cpp-Challenge\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\FreeType\include;C:\dev\ttt\The-Modern-Cpp-Challenge\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\libs\ZipLib\MinSizeRel\ZipLib.lib;..\..\libs\PDF-Writer\PDFWriter\MinSizeRel\PDFWriter.lib;..\..\libs\PDF-Writer\FreeType\MinSizeRel\FreeType.lib;..\..\libs\PDF-Writer\LibAesgm\MinSizeRel\LibAesgm.lib;..\..\libs\PDF-Writer\LibJpeg\MinSizeRel\LibJpeg.lib;..\..\libs\PDF-Writer\LibPng\MinSizeRel\LibPng.lib;..\..\libs\PDF-Writer\LibTiff\MinSizeRel\LibTiff.lib;..\..\libs\PDF-Writer\ZLib\MinSizeRel\Zlib.lib;..\..\libs\ZipLib\extlibs\bzip2\MinSizeRel\bzip2.lib;..\..\libs\ZipLib\extlibs\lzma\MinSizeRel\lzma.lib;..\..\libs\ZipLib\extlibs\zlib\MinSizeRel\zlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/dev/ttt/The-Modern-Cpp-Challenge/Chapter09/problem_77/MinSizeRel/problem_77.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/dev/ttt/The-Modern-Cpp-Challenge/bin/MinSizeRel/problem_77.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\FreeType\include;C:\dev\ttt\The-Modern-Cpp-Challenge\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\FreeType\include;C:\dev\ttt\The-Modern-Cpp-Challenge\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer;C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\FreeType\include;C:\dev\ttt\The-Modern-Cpp-Challenge\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\libs\ZipLib\RelWithDebInfo\ZipLib.lib;..\..\libs\PDF-Writer\PDFWriter\RelWithDebInfo\PDFWriter.lib;..\..\libs\PDF-Writer\FreeType\RelWithDebInfo\FreeType.lib;..\..\libs\PDF-Writer\LibAesgm\RelWithDebInfo\LibAesgm.lib;..\..\libs\PDF-Writer\LibJpeg\RelWithDebInfo\LibJpeg.lib;..\..\libs\PDF-Writer\LibPng\RelWithDebInfo\LibPng.lib;..\..\libs\PDF-Writer\LibTiff\RelWithDebInfo\LibTiff.lib;..\..\libs\PDF-Writer\ZLib\RelWithDebInfo\Zlib.lib;..\..\libs\ZipLib\extlibs\bzip2\RelWithDebInfo\bzip2.lib;..\..\libs\ZipLib\extlibs\lzma\RelWithDebInfo\lzma.lib;..\..\libs\ZipLib\extlibs\zlib\RelWithDebInfo\zlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/dev/ttt/The-Modern-Cpp-Challenge/Chapter09/problem_77/RelWithDebInfo/problem_77.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/dev/ttt/The-Modern-Cpp-Challenge/bin/RelWithDebInfo/problem_77.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter09\problem_77\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/dev/ttt/The-Modern-Cpp-Challenge/Chapter09/problem_77/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/dev/ttt/The-Modern-Cpp-Challenge -BC:/dev/ttt/The-Modern-Cpp-Challenge --check-stamp-file C:/dev/ttt/The-Modern-Cpp-Challenge/Chapter09/problem_77/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter09\problem_77\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/dev/ttt/The-Modern-Cpp-Challenge/Chapter09/problem_77/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/dev/ttt/The-Modern-Cpp-Challenge -BC:/dev/ttt/The-Modern-Cpp-Challenge --check-stamp-file C:/dev/ttt/The-Modern-Cpp-Challenge/Chapter09/problem_77/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter09\problem_77\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/dev/ttt/The-Modern-Cpp-Challenge/Chapter09/problem_77/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/dev/ttt/The-Modern-Cpp-Challenge -BC:/dev/ttt/The-Modern-Cpp-Challenge --check-stamp-file C:/dev/ttt/The-Modern-Cpp-Challenge/Chapter09/problem_77/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter09\problem_77\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/dev/ttt/The-Modern-Cpp-Challenge/Chapter09/problem_77/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/dev/ttt/The-Modern-Cpp-Challenge -BC:/dev/ttt/The-Modern-Cpp-Challenge --check-stamp-file C:/dev/ttt/The-Modern-Cpp-Challenge/Chapter09/problem_77/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter09\problem_77\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\dev\ttt\The-Modern-Cpp-Challenge\Chapter09\problem_77\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\ZERO_CHECK.vcxproj">
+      <Project>{DFA87B6F-CF3E-3DB6-A62B-643C01577C4D}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\FreeType\FreeType.vcxproj">
+      <Project>{C1239663-7BE0-3044-97EC-8D5858688073}</Project>
+      <Name>FreeType</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibAesgm\LibAesgm.vcxproj">
+      <Project>{A5D190FD-D601-39D5-925D-0DBF31752A1A}</Project>
+      <Name>LibAesgm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibJpeg\LibJpeg.vcxproj">
+      <Project>{9908DF2B-06BA-3011-9551-E1864991F54E}</Project>
+      <Name>LibJpeg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibPng\LibPng.vcxproj">
+      <Project>{E5A0A86E-3520-3AAE-8B85-6870DC5A72CB}</Project>
+      <Name>LibPng</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\LibTiff\LibTiff.vcxproj">
+      <Project>{83FC6CB3-131F-3053-BA67-38E830FCAFA7}</Project>
+      <Name>LibTiff</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\PDFWriter\PDFWriter.vcxproj">
+      <Project>{5FE2B2D8-0227-35AF-8BC6-440176D05595}</Project>
+      <Name>PDFWriter</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\ZipLib.vcxproj">
+      <Project>{57C37D0D-0DD0-3654-B438-4F446404D3F9}</Project>
+      <Name>ZipLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\PDF-Writer\ZLib\Zlib.vcxproj">
+      <Project>{E5CFD68C-0EFE-3295-8639-0FBB3C50090D}</Project>
+      <Name>Zlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\bzip2\bzip2.vcxproj">
+      <Project>{98A9059C-F05D-3C4E-BBEB-BE5E8CD18BEF}</Project>
+      <Name>bzip2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\lzma\lzma.vcxproj">
+      <Project>{AC69C7FC-0C4B-33CF-929D-79E235030E46}</Project>
+      <Name>lzma</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\ttt\The-Modern-Cpp-Challenge\libs\ZipLib\extlibs\zlib\zlib.vcxproj">
+      <Project>{5B6E5745-C9E4-3C32-B2D7-04A222DB0518}</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
